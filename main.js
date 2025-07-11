@@ -1851,6 +1851,12 @@ class Mercedesme extends utils.Adapter {
       this.log.debug(data);
       this.setState("info.connection", false, true);
       this.log.debug("Websocket closed");
+      if (data == "1001") {
+        this.log.debug("Forced disconnect");
+        setTimeout(() => {
+          this.connectWS();
+        }, 2000);
+      }
     });
     this.ws.on("message", async (data, isBinary) => {
       data = isBinary ? data : data.toString();
