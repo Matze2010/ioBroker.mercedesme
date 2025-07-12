@@ -1,8 +1,34 @@
 {
   "common": {
     "name": "mercedesme",
-    "version": "0.3.8-beta.1",
+    "version": "0.3.8",
     "news": {
+      "0.3.8": {
+        "en": "change token refresh mechanism",
+        "de": "wechseln sie den auffrischungsmechanismus",
+        "ru": "изменение механизма обновления маркера",
+        "pt": "mudar o mecanismo de atualização do token",
+        "nl": "tokenverversingsmechanisme wijzigen",
+        "fr": "mécanisme de rafraîchissement du jeton de changement",
+        "it": "cambiare meccanismo di aggiornamento token",
+        "es": "cambio de mecanismo de actualización token",
+        "pl": "zmienić mechanizm odświeżania symboli",
+        "uk": "зміна механізму освіження токени",
+        "zh-cn": "更改令牌刷新机制"
+      },
+      "0.3.8-beta.2": {
+        "en": "change token refresh mechanism",
+        "de": "wechseln sie den auffrischungsmechanismus",
+        "ru": "изменение механизма обновления маркера",
+        "pt": "mudar o mecanismo de atualização do token",
+        "nl": "tokenverversingsmechanisme wijzigen",
+        "fr": "mécanisme de rafraîchissement du jeton de changement",
+        "it": "cambiare meccanismo di aggiornamento token",
+        "es": "cambio de mecanismo de actualización token",
+        "pl": "zmienić mechanizm odświeżania symboli",
+        "uk": "зміна механізму освіження токени",
+        "zh-cn": "更改令牌刷新机制"
+      },
       "0.3.8-beta.1": {
         "en": "change token refresh mechanism",
         "de": "wechseln sie den auffrischungsmechanismus",
@@ -67,32 +93,6 @@
         "pl": "naprawić nowy przepływ logowania",
         "uk": "виправити новий потік логіна",
         "zh-cn": "修正新登录流程"
-      },
-      "0.3.4": {
-        "en": "added config parameter for reconnect delay",
-        "de": "Konfigurationsparameter hinzugefügt für Reconnect-Verzögerung",
-        "ru": "добавлен параметр настройки для задержки перезаключения",
-        "pt": "parâmetro de configuração adicionado para reconectar o atraso",
-        "nl": "toegevoegde config parameter voor reconnect delay",
-        "fr": "paramètre de configuration ajouté pour reconnecter le délai",
-        "it": "parametro di configurazione aggiunto per riconnettere il ritardo",
-        "es": "parámetro de configuración añadido para el retraso de reconexión",
-        "pl": "dodany parametr konfiguracyjny dla opóźnienia ponownego połączenia",
-        "uk": "додано параметр налаштування для затримки відключення",
-        "zh-cn": "添加重连接延迟的配置参数"
-      },
-      "0.3.3": {
-        "en": "fix for too many request error",
-        "de": "Fix für zu viele Anfragen Fehler",
-        "ru": "исправить слишком много ошибок запроса",
-        "pt": "corrigir para muitos erro de solicitação",
-        "nl": "fix voor te veel verzoek fout",
-        "fr": "corriger pour trop d'erreur de requête",
-        "it": "correzione per troppi errori di richiesta",
-        "es": "solución para demasiados errores de solicitud",
-        "pl": "naprawić błąd zbyt wielu żądań",
-        "uk": "виправити занадто багато помилок запиту",
-        "zh-cn": "修正过多的请求错误"
       }
     },
     "titleLang": {
